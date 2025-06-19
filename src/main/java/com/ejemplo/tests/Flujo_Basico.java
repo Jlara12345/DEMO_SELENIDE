@@ -228,7 +228,7 @@ class Flujo_Basico {
 		timeStampPaso = formatterWithTimeZone.format(new java.util.Date());
 		
 		inicio = System.currentTimeMillis();
-		$("[formcontrolname='firstCtrl']").sendKeys("Juan");
+		$("[formcontrolname='firstCtrl']").sendKeys("Mr. Bones");
 		fin =System.currentTimeMillis();
 		tiempoRespuesta=Util.calcularTiempoRespuesta(fin, inicio);
 		tiempoRespuesta=Util.tiempoRespuestaDummyDemo(tiempoRespuesta);
