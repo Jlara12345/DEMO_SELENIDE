@@ -13,11 +13,11 @@ public class BaseTest {
 	
     //RUTA PARA ALMACENAR LA EVIDENCIA DE MANERA LOCAL
    // static String ruta = "/Users/QualityServices/REPO/TMP_EVIDENCIA_CLIENTES/";
-    static String ruta = ConfigReader.get("test.engine.client.path");
+    public static String ruta = ConfigReader.get("test.engine.client.path");
   	
   	//URL DEL SERVIDOR DE MONITOREO
   	 //static String urlTestE = "http://192.168.0.50:8080/UPLOAD/monitoring/mon_ext/insertaRegistro";
-  	 static String urlTestE = ConfigReader.get("test.engine.server.url");
+  	 public static String urlTestE = ConfigReader.get("test.engine.server.url");
 
 	public BaseTest() {
 		// TODO Auto-generated constructor stub
@@ -48,6 +48,9 @@ public class BaseTest {
         Configuration.browser = "chrome";
         Configuration.headless = false; // true si estás en CI o sin entorno gráfico
         
+        //Instruccion para maximizar el navegador
+       // Configuration.startMaximized = true;
+      
         
      // Inicializar componente cliente para enviar evidencia
      		TestEngineClient.init(urlTestE, ruta);
