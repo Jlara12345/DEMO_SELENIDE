@@ -123,7 +123,7 @@ class Test_Secciones extends BaseTest {
 
 
 
-	public boolean Paso1_OpenHome(Home homeP, String timeStampFlujo, String flujo) {
+	private boolean Paso1_OpenHome(Home homeP, String timeStampFlujo, String flujo) {
 		boolean terminaOk = false;
 		try {
 
