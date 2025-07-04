@@ -12,7 +12,7 @@ import mx.com.asteci.testing.aut.demo.utils.TestEngineClient;
 //import mx.com.quality.fp.auto.clases.utils.Util;
 import mx.com.asteci.testing.aut.demo.utils.Util;
 
-class AW_TEST001_NAVEGACION_TEST extends BaseTest {
+class AW_TEST001_NAVEGACION_Test extends BaseTest {
 	
 	long thinkTimeGral = 1500;
 	long thinKTimePasoPantallazo = 1500;
