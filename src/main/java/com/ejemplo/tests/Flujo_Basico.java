@@ -23,8 +23,8 @@ import static com.codeborne.selenide.Condition.*;
 import com.codeborne.selenide.Configuration;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-import mx.com.liverpool.fp.auto.clases.utils.TestEngineClient;
-import mx.com.liverpool.fp.auto.clases.utils.Util;
+import mx.com.quality.fp.auto.clases.utils.TestEngineClient;
+import mx.com.quality.fp.auto.clases.utils.Util;
 
 class Flujo_Basico {
 	

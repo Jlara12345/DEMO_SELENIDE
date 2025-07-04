@@ -1,21 +1,14 @@
 package mx.com.asteci.testing.aut.demo.tests;
 
 import static com.codeborne.selenide.Selenide.sleep;
-
-import static org.junit.jupiter.api.Assertions.*;
-
 import java.io.File;
 import java.io.IOException;
-
-import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.Test;
-
-import mx.com.asteci.aut.demo.exceptions.ClientException;
 import mx.com.asteci.testing.aut.demo.pages.FEATURES;
 import mx.com.asteci.testing.aut.demo.pages.Home;
 import mx.com.asteci.testing.aut.demo.utils.BaseTest;
-import mx.com.liverpool.fp.auto.clases.utils.TestEngineClient;
-import mx.com.liverpool.fp.auto.clases.utils.Util;
+import mx.com.quality.fp.auto.clases.utils.TestEngineClient;
+import mx.com.quality.fp.auto.clases.utils.Util;
 
 class Test_Secciones extends BaseTest {
 	
