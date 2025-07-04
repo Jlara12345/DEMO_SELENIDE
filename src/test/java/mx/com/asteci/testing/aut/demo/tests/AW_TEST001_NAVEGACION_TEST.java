@@ -7,10 +7,12 @@ import org.junit.jupiter.api.Test;
 import mx.com.asteci.testing.aut.demo.pages.FEATURES;
 import mx.com.asteci.testing.aut.demo.pages.Home;
 import mx.com.asteci.testing.aut.demo.utils.BaseTest;
-import mx.com.quality.fp.auto.clases.utils.TestEngineClient;
-import mx.com.quality.fp.auto.clases.utils.Util;
+import mx.com.asteci.testing.aut.demo.utils.TestEngineClient;
+//import mx.com.quality.fp.auto.clases.utils.TestEngineClient;
+//import mx.com.quality.fp.auto.clases.utils.Util;
+import mx.com.asteci.testing.aut.demo.utils.Util;
 
-class Test_Secciones extends BaseTest {
+class AW_TEST001_NAVEGACION_TEST extends BaseTest {
 	
 	long thinkTimeGral = 1500;
 	long thinKTimePasoPantallazo = 1500;

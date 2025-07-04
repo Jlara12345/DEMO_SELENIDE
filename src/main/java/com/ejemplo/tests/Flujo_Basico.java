@@ -23,8 +23,9 @@ import static com.codeborne.selenide.Condition.*;
 import com.codeborne.selenide.Configuration;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-import mx.com.quality.fp.auto.clases.utils.TestEngineClient;
-import mx.com.quality.fp.auto.clases.utils.Util;
+import mx.com.asteci.testing.aut.demo.utils.TestEngineClient;
+import mx.com.asteci.testing.aut.demo.utils.Util;
+
 
 class Flujo_Basico {
 	

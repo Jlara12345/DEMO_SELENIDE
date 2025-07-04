@@ -6,7 +6,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import com.codeborne.selenide.Configuration;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-import mx.com.quality.fp.auto.clases.utils.TestEngineClient;
+
 
 public class BaseTest {
 	
